@@ -1,0 +1,73 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Region",
+				"type": "varchar"
+			},
+			{
+				"name": "Country",
+				"type": "varchar"
+			},
+			{
+				"name": "Item Type",
+				"type": "varchar"
+			},
+			{
+				"name": "Sales Channel",
+				"type": "varchar"
+			},
+			{
+				"name": "Order Priority",
+				"type": "varchar"
+			},
+			{
+				"name": "Order Date",
+				"type": "varchar"
+			},
+			{
+				"name": "Order ID",
+				"type": "varchar"
+			},
+			{
+				"name": "Ship Date",
+				"type": "varchar"
+			},
+			{
+				"name": "Units Sold",
+				"type": "varchar"
+			},
+			{
+				"name": "Unit Price",
+				"type": "varchar"
+			},
+			{
+				"name": "Unit Cost",
+				"type": "varchar"
+			},
+			{
+				"name": "Total Revenue",
+				"type": "varchar"
+			},
+			{
+				"name": "Total Cost",
+				"type": "varchar"
+			},
+			{
+				"name": "Total Profit",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "50000 Sales Records"
+		}
+	}
+}
